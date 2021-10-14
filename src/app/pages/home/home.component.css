@@ -1,0 +1,81 @@
+.banner {
+  height: 100vh;
+  min-height: 300px;
+  background-image: url('https://miro.medium.com/max/1200/1*AeYInrZiIoQ9-9l8MDl-CA.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.banner h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 8px #181717;
+  line-height: 1.2;
+}
+.banner h2 {
+  font-size: 30px;
+  line-height: 1.2;
+  text-shadow: 2px 2px 8px #000000;
+  color: #fcaea8;
+}
+
+.content {
+  padding: 16px;
+}
+
+.content > mat-card {
+  width: 2000px;
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.destaque {
+  background-color: hsla(0, 1%, 58%,0.5);
+  padding: 20px;
+}
+
+.card1:hover{
+  background-color: #fc1707;
+
+}
+.card2:hover{
+  background-color: #f85321;
+
+}
+.card3:hover{
+  background-color: #ffb923;
+
+}
+.card4:hover{
+  background-color: #35aa07cc;
+
+}
+
+mat-card{
+
+  background-color: rgb(24, 21, 21);
+}
+
+.divMercado{
+  background-color: rgb(245, 55, 55);
+  text-align: left;
+  border-radius: 20px;
+
+}
+
+.mercado{
+  text-align: center;
+ 
+
+}
+
+p {
+  text-align: justify;
+  padding: 30px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+
+

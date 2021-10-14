@@ -1,0 +1,40 @@
+<mat-toolbar fxLayout="row" class='menu'>
+  <img src="../../assets/images/logo.png" alt="">
+  <span fxFlex>Angular do zero</span>
+  <button mat-button *ngFor="let item of menuItens"
+      routerLink="{{item.route}}"
+      [fxShow]="item.showOnDesktop"
+      [fxShow.xs]="item.showOnMobile"
+      [fxShow.sm]="item.showOnTablet"
+
+      >
+
+      <!-- <a [routerLink]={{item.route}}> -->
+        <mat-icon class="mr">{{item.icone}}</mat-icon>
+        {{item.descricao}}
+      <!-- </a> -->
+  </button>
+
+  <ng-container>
+      <button mat-icon-button [matMenuTriggerFor]="dropMenu">
+          <mat-icon>more_vert</mat-icon>
+      </button>
+
+      <mat-menu #dropMenu="matMenu">
+          <ng-container *ngFor="let item of menuItens">
+
+              <div [fxShow]="!item.showOnDesktop"
+                   [fxShow.sm]="!item.showOnTablet"
+                   [fxShow.xs]="!item.showOnMobile">
+
+                  <button mat-menu-item routerLink="{{item.route}}">
+                      <mat-icon class="mr">{{item.icone}}</mat-icon>
+                      {{item.descricao}}
+                  </button>
+                  <mat-divider></mat-divider>
+              </div>
+          </ng-container>
+      </mat-menu>
+
+  </ng-container>
+</mat-toolbar>
