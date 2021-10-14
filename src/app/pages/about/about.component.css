@@ -1,0 +1,39 @@
+
+.bg-black {
+  background: #000
+}
+
+.perfil {
+  width: 30%
+}
+
+@media (min-width: 991px) and (max-width:1200px) {
+  .perfil {
+      padding: 32px !important
+  }
+}
+
+@media (min-width: 1200px) {
+  .perfil {
+      padding: 50px !important
+  }
+}
+
+
+body {
+  background-color: #eeeeee
+}
+.foto {
+  background-size: cover;
+  background-position: center;
+  background-image: url('../../../assets/images/about.jpg');
+}
+
+i {
+  font-size: 20px;
+  color: rgb(32, 32, 32);
+  padding: 5px;
+
+}
+
+
