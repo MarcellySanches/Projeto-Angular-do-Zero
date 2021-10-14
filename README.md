@@ -9,9 +9,6 @@ MVP de uma plataforma de tutoriais sobre Angular.
 Esta demanda foi realizada durante o bootcamp de Web FullStack da SoulCode. <br>
 O intuito era criar um produto mínimo viável para um cenário de curso ou tutoriais sobre Angular.
 
-## link acesso
-https://marcellysanches.github.io/Projeto-Angular-do-Zero/
-
 
 
 # AprendendoAngular
