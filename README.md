@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 # Projeto Angular do Zero
 MVP de uma plataforma de tutoriais sobre Angular.
@@ -10,7 +10,7 @@ Esta demanda foi realizada durante o bootcamp de Web FullStack da SoulCode. <br>
 O intuito era criar um produto mínimo viável para um cenário de curso ou tutoriais sobre Angular.
 
 
-=======
+
 # AprendendoAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.9.
